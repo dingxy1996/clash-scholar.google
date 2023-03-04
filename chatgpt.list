@@ -1,1 +1,9 @@
-ss
+# 代理列表
+
+# MyList && Other
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,gptv3.nloli.xyz
+DOMAIN-SUFFIX,gpt.nloli.xyz
+DOMAIN-KEYWORD,chat.openai
+DOMAIN-KEYWORD,openai.com
