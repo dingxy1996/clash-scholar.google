@@ -1,0 +1,9 @@
+# 代理列表
+
+# > Google Voice
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-SUFFIX,voice.telephony.goog
+HOST,lens.l.google.com
+HOST,voice.telephony.goog
+DOMAIN-KEYWORD,voice.google
+DOMAIN-KEYWORD,voice.telephon
