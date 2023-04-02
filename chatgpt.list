@@ -1,10 +1,17 @@
 # 代理列表
 
-# MyList && Other
+# ChatGPT
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,gptv3.nloli.xyz
-DOMAIN-SUFFIX,gpt.nloli.xyz
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-KEYWORD,chat.openai
 DOMAIN-KEYWORD,openai.com
+# AI.com
+DOMAIN-SUFFIX,ai.com
+# Google bard
 DOMAIN-KEYWORD,bard.google.com
+# 3rd
+DOMAIN-SUFFIX,gptv3.nloli.xyz
+DOMAIN-SUFFIX,gpt.nloli.xyz
