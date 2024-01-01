@@ -11,12 +11,23 @@ DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-KEYWORD,chat.openai
 DOMAIN-KEYWORD,openai.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 # AI.com
 DOMAIN-SUFFIX,ai.com
 # Google bard
 DOMAIN-KEYWORD,bard.google.com
 # New Bing
 DOMAIN-SUFFIX,bing.com
+DOMAIN-KEYWORD,bing.com
+DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,bingads.com
 DOMAIN-SUFFIX,bingagencyawards.com
@@ -39,7 +50,14 @@ DOMAIN-SUFFIX,office365love.com
 DOMAIN-SUFFIX,office365tw.com
 DOMAIN-SUFFIX,renovacionoffice.com
 DOMAIN-SUFFIX,sprinklesapp.com
-DOMAIN-KEYWORD,bing.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-KEYWORD,copilot
+DOMAIN-KEYWORD,msftauth
+DOMAIN-KEYWORD,azureedge
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,microsoft.com
 # 3rd
 DOMAIN-SUFFIX,gptv3.nloli.xyz
 DOMAIN-SUFFIX,gpt.nloli.xyz
