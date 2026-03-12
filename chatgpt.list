@@ -1,6 +1,20 @@
-# 代理列表
+# Proxy lists
+# Remove duplicates with Claude
 
+# Mobile apps:
+PROCESS-NAME,com.microsoft.emmx
+PROCESS-NAME,com.microsoft.copilot
+PROCESS-NAME,com.openai.chatgpt
+PROCESS-NAME,com.anthropic.claude
+PROCESS-NAME,ai.perplexity.perplexica
+PROCESS-NAME,ai.character.app
+PROCESS-NAME,com.poe.android
+PROCESS-NAME,com.google.android.apps.bard
 # ChatGPT
+PROCESS-NAME,ChatGPT
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,datadoghq
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -20,9 +34,25 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-# AI.com
-DOMAIN-SUFFIX,ai.com
-# Google
+DOMAIN-SUFFIX,a.nel.cloudflare.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,ab.chatgpt.com
+# Claude
+DOMAIN-KEYWORD,anthropic
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper
+DOMAIN-KEYWORD,claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,console.anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+# Grok
+PROCESS-NAME,grok
+DOMAIN-KEYWORD,grok
+DOMAIN-SUFFIX,grok.com
+# Google Gemini
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -36,7 +66,31 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-# New Bing
+DOMAIN,aistudio.google.com
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,people-pa.clients6.google.com
+DOMAIN-SUFFIX,clients6.google.com
+# Google Antigravity
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-KEYWORD,antigravity
+PROCESS-NAME,Antigravity Helper
+PROCESS-NAME,Antigravity Helper (Renderer)
+PROCESS-NAME,Antigravity Helper (GPU)
+PROCESS-NAME,Antigravity Helper (Plugin)
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+# New Bing/Copilot
+PROCESS-NAME,Copilot
 DOMAIN-SUFFIX,bing.com
 DOMAIN-KEYWORD,bing.com
 DOMAIN-SUFFIX,bing.cn
@@ -69,58 +123,53 @@ DOMAIN-KEYWORD,azureedge
 DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,microsoft.com
-# 3rd
-DOMAIN-SUFFIX,gptv3.nloli.xyz
-DOMAIN-SUFFIX,gpt.nloli.xyz
+# Perplexity.ai
+DOMAIN-SUFFIX,perplexity.ai
+# AI.com
+DOMAIN-SUFFIX,ai.com
+# Cursor
+PROCESS-NAME,Cursor
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
 
+#####################################
 # Merge ACL4SSR/Clash/Ruleset/AI.list
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,openai
-DOMAIN,ai.google.dev
-DOMAIN,aistudio.google.com
+
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
-DOMAIN,bard.google.com
 DOMAIN,console.groq.com
 DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,gemini.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,notebooklm.google.com
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
+
+#####################################
+# Merge Clash/Ruleset/AiDomain.list
+# https://raw.githubusercontent.com/szkane/ClashRuleSet/refs/heads/main/Clash/Ruleset/AiDomain.list
+
+#VS CODE AI chat
+PROCESS-NAME,Code Helper
+PROCESS-NAME,Code Helper (Plugin)
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN-SUFFIX,api.github.com
+DOMAIN-SUFFIX,github.gallery.vsassets.io
+DOMAIN-SUFFIX,github.gallerycdn.vsassets.io
+DOMAIN-SUFFIX,applicationinsights.azure.com
