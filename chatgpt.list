@@ -127,6 +127,12 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,perplexity.ai
 # AI.com
 DOMAIN-SUFFIX,ai.com
+# Meta AI
+DOMAIN-KEYWORD,meta
+DOMAIN-SUFFIX,meta.ai
+#DOMAIN-KEYWORD,manus
+#DOMAIN-SUFFIX,manus.im
+
 # Cursor
 PROCESS-NAME,Cursor
 DOMAIN-SUFFIX,cursor.com
@@ -155,7 +161,6 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
